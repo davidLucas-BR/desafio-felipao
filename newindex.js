@@ -1,5 +1,5 @@
-let resultCalculator =  result(0, 0)
-let classification = ""
+let resultCalculator =  result(40, 2)
+let classification = " "
 
 function result(victory, defeat){
     sub = victory - defeat
@@ -25,7 +25,6 @@ else if(resultCalculator > 90 && resultCalculator <= 100){
 else if(resultCalculator > 100){
     classification = "Imortal"
 }
-default console.log("O Herói não jogou rankeadas!")
 
 
 console.log("O Herói tem de saldo de " + resultCalculator + " está no nível de " + classification)
